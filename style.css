@@ -1,9 +1,10 @@
+/*applies these attributes to everything*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+ /*sets the background color of the body to, whatever that color is*/
 body {
     background-color: #d9dcd6;
 }
@@ -41,11 +42,13 @@ body {
     margin-left: 25px;
 }
 
+/*sets a links color to white, with no underlines*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/*sets paragraph font size to 16 pixels*/
 p {
     font-size: 16px;
 }
@@ -87,7 +90,7 @@ p {
 }
 
 /*consolidated the individual benefits into one class*/
-/*removed redudant magin-bottom, gets overridden*/
+/*removed redudant margin-bottom, gets overridden*/
 .theBenefits {
     color: #ffffff;
 }
@@ -160,13 +163,15 @@ p {
     font-size: 36px;
 }
 
-.footer {
+/*changed div to footer*/
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+/*changed div to footer*/
+footer h2 {
     font-size: 20px;
 }
