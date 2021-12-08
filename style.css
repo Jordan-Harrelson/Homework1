@@ -92,11 +92,13 @@ p {
     color: #ffffff;
 }
 
+/*consolidated the individual benefits into one class*/
 .theBenefits h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/*consolidated the individual benefits into one class*/
 .theBenefits img {
     display: block;
     margin: 10px auto;
